@@ -1,0 +1,36 @@
+/* Products */
+.products{
+    justify-content: center;
+    align-items: cen;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 2rem 4rem;
+
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 350px;
+    flex-basis: 10px;
+    border-radius: 0 0 10px 0;
+}
+
+.card:hover{
+    background-color: var(--primary);
+    color: white;
+}
+
+.card-img-top{
+    min-width: 256px;
+    height: 100%;
+}
+
+.card-title{
+    text-align: center;
+    padding-block: 1rem;     
+    font-size: 1rem;
+    font-weight: normal;
+}

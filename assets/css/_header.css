@@ -1,0 +1,45 @@
+
+/* Header */
+.navbar{
+    position: sticky;
+    background-color: var(--white);
+    top: 0;
+    z-index: 10;
+}
+
+.navbar--nav{
+    justify-content: space-evenly;
+    border: 2px solid lightgrey;
+}
+
+.navbar--nav > li{
+    list-style: none ;
+    font-weight: 600;
+    padding: .8rem;
+}
+
+.main--img  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+/* Header -- hamburger*/
+.navbar-toggler{
+    /* height: 2rem;
+    width: 2rem; */
+    /* border: 1px solid black; */
+    position: relative; 
+
+}
+
+.navbar-toggler-icon{
+    display: block;
+    background-color: black;
+    /* width: 100%; */
+    width: 1.5rem;
+    height: 2px;
+    margin-block: .35rem;
+    position: absolute; 
+}

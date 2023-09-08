@@ -1,0 +1,54 @@
+
+:root {
+    --primary: #027bc0;
+    --white: #ffffff;
+}
+  
+/* "Normalización" */
+
+*, *::after, *::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a, a:link, a:visited, a:active, a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+img{
+    max-width: 100%;
+}
+
+body{
+    background-color: var(--white);
+}
+
+
+/* Imitando bootstrap */
+.text-primary{
+    color: var(--primary);
+}
+
+.text-center{
+    text-align: center;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.f-center{
+    justify-content: center;
+    align-items: center;
+}
+
+.fs-3{
+    font-size: 3rem;
+}
+
+.p-3{
+    padding: 1.5rem;
+}
+
