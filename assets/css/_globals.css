@@ -27,6 +27,8 @@ body{
 
 
 /* Imitando bootstrap */
+
+
 .text-primary{
     color: var(--primary);
 }
@@ -36,7 +38,7 @@ body{
 }
 
 .d-flex{
-    display: flex;
+    display: flex !important; 
 }
 
 .f-center{
@@ -52,3 +54,6 @@ body{
     padding: 1.5rem;
 }
 
+.h2{
+    font-size: xx-large;
+}

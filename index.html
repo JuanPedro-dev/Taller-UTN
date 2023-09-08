@@ -7,24 +7,26 @@
     <title>Muebles Chaldu</title>
 </head>
 <body>
-<!-- No encierro el header, h1, y navbar porque no me toma el stiky del navbar  -->
-
-
+    <!-- No encierro el header, h1, y navbar porque no me toma el stiky del navbar  -->
     <header class="header">
-        <h1 class="text-center p-3 h2"> 
+        <h1 class="text-center p-3"> 
             Ecommerce <span class="text-primary">Muebles Chaldu</span>
         </h1>
     </header>
-        
-    <nav class="navbar">
-        <!-- TODO: Terminar menú hamburguesa -->
-    <!-- <div class="navbar-toggler">
-            <span class="navbar-toggler-icon"></span>
-            <span class="navbar-toggler-icon"></span>
-            <span class="navbar-toggler-icon"></span>
-        </div> -->
 
-        <ul class="navbar--nav d-flex">
+    <nav class="navbar">
+
+        <div class="navbar--mobile">
+            <h3><span class="text-primary">Muebles Chaldu</span></h3>
+    
+            <div class="navbar-toggler">
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+            </div> 
+        </div>
+
+        <ul class="navbar--nav">
             <li><a href="#">Inicio</a></li>
             <li><a href="#">Nosotros</a></li>
             <li><a href="#">Tienda</a></li>
@@ -38,28 +40,30 @@
         <img src="https://openairhomes.com/wp-content/uploads/2023/08/pexels-pixabay-271816-1536x864.jpg" alt="living">
     </main>
 
-    <section class="products d-flex">
+    <section >
+        <h2 class="text-center h2">Categoría de Productos</h2>
 
-        <div class="card">
-            <img src="https://i0.wp.com/www.pintandounamama.es/wp-content/uploads/2019/11/oficina-en-casa.jpg?w=1280" class="card-img-top" alt="oficina">
-            <h5 class="card-title">Oficina</h5>
+        <div class="products d-flex">
+            <div class="card">
+                <img src="https://i0.wp.com/www.pintandounamama.es/wp-content/uploads/2019/11/oficina-en-casa.jpg?w=1280" class="card-img-top" alt="oficina">
+                <h5 class="card-title">Oficina</h5>
+            </div>
+    
+            <div class="card">
+                <img src="https://www.zarla.com/images/Zarla-home-store-logos-5633x3726-2021023.jpeg?crop=21:16,smart&width=420&dpr=2" class="card-img-top" alt="oficina">
+                <h5 class="card-title">Hogar</h5>
+            </div>
+    
+            <div class="card">
+                <img src="https://www.worten.es/blog/wp-content/uploads/2018/01/breather-187924.jpg" class="card-img-top" alt="oficina">
+                <h5 class="card-title">Cocina</h5>
+            </div>
         </div>
-
-        <div class="card">
-            <img src="https://www.zarla.com/images/Zarla-home-store-logos-5633x3726-2021023.jpeg?crop=21:16,smart&width=420&dpr=2" class="card-img-top" alt="oficina">
-            <h5 class="card-title">Hogar</h5>
-        </div>
-
-        <div class="card">
-            <img src="https://www.worten.es/blog/wp-content/uploads/2018/01/breather-187924.jpg" class="card-img-top" alt="oficina">
-            <h5 class="card-title">Cocina</h5>
-        </div>
-
     </section>
 
 
 
 
-
+    <script type="module" src="./assets/app.js"></script>
 </body>
 </html>
