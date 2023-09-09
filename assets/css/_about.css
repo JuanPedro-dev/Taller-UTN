@@ -1,0 +1,53 @@
+#about{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0;
+    
+}
+
+.about--img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 350px;
+    max-height: 500px;
+    overflow: hidden;
+}
+
+.about--img > img{
+    object-fit: fill;
+
+}
+
+.about--text{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1 1 412px;
+    padding: 2rem;
+    background-color: var(--primary);
+    color: white;
+}
+
+.about--text > h3{ 
+    font-size: xx-large;
+    margin-bottom: 1.4rem;
+}
+
+.about--text > p{ 
+    font-size: x-large;
+}
+
+
+/* Desktop > 992px */
+@media screen and (min-width: 1200px) {
+    .about--text{ 
+        padding-left: 5%;
+    }
+
+    .about--text > p{ 
+        max-width: 50%;
+        height: fit-content;
+    }
+}
+
