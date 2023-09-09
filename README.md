@@ -1,4 +1,4 @@
-<h1 style="text-align:center"  > 💻Taller HTML - CSS 💻 </h1>
+<h1 style="text-align:center"> 💻Taller HTML - CSS 💻 </h1>
 
 Terminando la tecnicatura en programación, vemos las herramientas, tecnologías y lenguajes básicos en el desarrollo web. 
 <br> 
@@ -6,3 +6,4 @@ No se analizaron temas como responsive design (aunque mi genio no me dejo que se
 
 ⚠️ ***Ignore completamente este proyecto.*** ⚠️
 
+[Deploy app 💻](https://earnest-mermaid-2f7a8f.netlify.app/)
