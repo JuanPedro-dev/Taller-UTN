@@ -1,4 +1,9 @@
 /* Products */
+
+.cat-products > h2{
+    padding: 2rem;
+}
+
 .products{
     justify-content: center;
     flex-wrap: wrap;
