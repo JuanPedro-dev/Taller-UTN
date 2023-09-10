@@ -3,7 +3,8 @@
 @import url('./_products.css');
 @import url('./_about.css');
 @import url('./_store.css');
+@import url('./_footer.css');
 
 
-/* Footer */
+/* Simulo SASS con la importación de módulos (un _ para ignorar el archivo), aunque SASS ignora esos archivos y genera un único style */
 

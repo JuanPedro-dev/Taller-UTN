@@ -1,0 +1,41 @@
+/* Footer */
+
+#footer{
+    padding: 0 1.5rem;
+    line-height: 2rem;
+}
+
+.footer--options h4{
+    padding-block: 2rem 0.8rem;
+}
+
+#footer li{
+    list-style: none;
+    padding-inline: 1rem;
+}
+
+#footer p{
+    padding-block: 2rem;
+    font-weight: 600;
+}
+
+@media screen and (min-width: 420px) {
+    
+    #footer{
+        padding-inline: 4rem;
+    }
+
+    .footer--options{
+        display: grid;
+        grid-template-columns: repeat(
+            auto-fit,
+            minmax(250px, 1fr)
+        );
+        gap: 2rem;
+    }
+    
+    .footer--options--item{
+        justify-self: center;
+    }
+
+}

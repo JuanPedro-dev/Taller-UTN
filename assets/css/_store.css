@@ -23,6 +23,7 @@
 }
 
 .product--info > h3{
+    padding-top: 1.2rem;
     font-size: xx-large;
 }
 
@@ -58,7 +59,7 @@
 /* Menu para desktop como el ejemplo:  */
 @media screen and (min-width: 992px) {
     .store{
-        padding: 4rem;
+        padding: 0 4rem;
     }
 
     .store--products{

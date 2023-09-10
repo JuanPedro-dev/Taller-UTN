@@ -6,4 +6,6 @@ No se analizaron temas como responsive design (aunque mi genio no me dejo que se
 
 ⚠️ ***Ignore completamente este proyecto.*** ⚠️
 
-[Deploy app 💻](https://earnest-mermaid-2f7a8f.netlify.app/)
+
+
+Si aun así prefieres ver un proyecto vanilla: [Deploy app 💻](https://earnest-mermaid-2f7a8f.netlify.app/)
